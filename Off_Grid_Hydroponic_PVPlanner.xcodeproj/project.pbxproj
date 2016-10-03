@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B447FD2F1DA265D000AC00EF /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B447FD2E1DA265D000AC00EF /* notes.txt */; };
 		B4A4E68E1DA1CA2E00B5FC16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4E68D1DA1CA2E00B5FC16 /* AppDelegate.swift */; };
 		B4A4E6901DA1CA2E00B5FC16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4E68F1DA1CA2E00B5FC16 /* ViewController.swift */; };
 		B4A4E6921DA1CA2E00B5FC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A4E6911DA1CA2E00B5FC16 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B447FD2E1DA265D000AC00EF /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
 		B4A4E68A1DA1CA2E00B5FC16 /* Off_Grid_Hydroponic_PVPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Off_Grid_Hydroponic_PVPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A4E68D1DA1CA2E00B5FC16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A4E68F1DA1CA2E00B5FC16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				B4A4E6911DA1CA2E00B5FC16 /* Assets.xcassets */,
 				B4A4E6931DA1CA2E00B5FC16 /* Main.storyboard */,
 				B4A4E6961DA1CA2E00B5FC16 /* Info.plist */,
+				B447FD2E1DA265D000AC00EF /* notes.txt */,
 			);
 			path = Off_Grid_Hydroponic_PVPlanner;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B447FD2F1DA265D000AC00EF /* notes.txt in Resources */,
 				B4A4E6921DA1CA2E00B5FC16 /* Assets.xcassets in Resources */,
 				B4A4E6951DA1CA2E00B5FC16 /* Main.storyboard in Resources */,
 			);
@@ -404,6 +408,7 @@
 				DEVELOPMENT_TEAM = E2897XA3U3;
 				INFOPLIST_FILE = Off_Grid_Hydroponic_PVPlanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "UH.Off-Grid-Hydroponic-PVPlanner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -418,6 +423,7 @@
 				DEVELOPMENT_TEAM = E2897XA3U3;
 				INFOPLIST_FILE = Off_Grid_Hydroponic_PVPlanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "UH.Off-Grid-Hydroponic-PVPlanner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -505,6 +511,7 @@
 				B4A4E6B11DA1CA2F00B5FC16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4A4E6B21DA1CA2F00B5FC16 /* Build configuration list for PBXNativeTarget "Off_Grid_Hydroponic_PVPlannerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				B4A4E6B41DA1CA2F00B5FC16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4A4E6B51DA1CA2F00B5FC16 /* Build configuration list for PBXNativeTarget "Off_Grid_Hydroponic_PVPlannerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				B4A4E6B71DA1CA2F00B5FC16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
